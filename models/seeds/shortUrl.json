@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "oriUrl": "https://tw.yahoo.com/",
+      "shortCode": "yyyyy"
+    },
+    {
+      "oriUrl": "https://www.facebook.com/",
+      "shortCode": "fffff"
+    },
+    {
+      "oriUrl": "https://www.google.com/",
+      "shortCode": "ggggg"
+    }
+  ]
+}
