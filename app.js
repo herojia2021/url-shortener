@@ -11,6 +11,9 @@ const port = 3000
 app.engine("hbs", exphbs({ extname: "hbs", defaultLayout: "main" }))
 app.set("view engine", "hbs")
 
+// setup static-file path
+app.use(express.static("public"))
+
 app.use(routes)
 
 // Listen the server when it started
