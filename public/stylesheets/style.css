@@ -1,0 +1,19 @@
+* {
+  //outline: 1px green dotted;
+}
+.main--title {
+  text-align: center;
+  margin-top: 50;
+}
+.main--logo {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+.home--url {
+  width: 60%;
+}
+.home--submit--button {
+  width: 30%;
+  font-weight: bolder;
+}
