@@ -12,7 +12,7 @@ function genShortCode() {
 
   let collection = (lowerCaseLetters + upperCaseLetters + numbers).split("")
 
-  // start generating password
+  // start generating code
   let code = ""
   for (let i = 0; i < codeLen; i++) {
     code += sample(collection)
