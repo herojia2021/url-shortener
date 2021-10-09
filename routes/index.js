@@ -2,9 +2,9 @@ const express = require("express")
 const router = express.Router()
 
 const home = require("./modules/home")
-const short = require("./modules/short")
+const success = require("./modules/success")
 
+router.use("/success", success) // must before "/"
 router.use("/", home)
-router.use("/short", short)
 
 module.exports = router

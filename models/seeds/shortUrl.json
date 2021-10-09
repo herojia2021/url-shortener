@@ -2,15 +2,15 @@
   "results": [
     {
       "oriUrl": "https://tw.yahoo.com/",
-      "shortCode": "yyyyy"
+      "code": "yyyyy"
     },
     {
       "oriUrl": "https://www.facebook.com/",
-      "shortCode": "fffff"
+      "code": "fffff"
     },
     {
       "oriUrl": "https://www.google.com/",
-      "shortCode": "ggggg"
+      "code": "ggggg"
     }
   ]
 }

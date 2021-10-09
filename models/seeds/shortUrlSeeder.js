@@ -7,7 +7,7 @@ db.once("open", () => {
   shortUrlData.results.forEach((element) => {
     ShortUrl.create({
       oriUrl: element.oriUrl,
-      shortCode: element.shortCode,
+      code: element.code,
     })
   })
 
