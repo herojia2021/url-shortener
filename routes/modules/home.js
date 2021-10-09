@@ -35,8 +35,8 @@ router.get("/:code", (req, res) => {
     .lean()
     .then((shortUrl) => {
       if (shortUrl.length === 0) {
-        // 沒有紀錄, 導向首頁
-        res.redirect("/")
+        // 沒有紀錄, 顯示錯誤頁面
+        res.render("notExist")
       } else {
         // 有紀錄, 導向原網址
         res.redirect(shortUrl[0].oriUrl)
