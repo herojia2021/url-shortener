@@ -1,6 +1,6 @@
-# 餐廳清單
+# 短網址產生器
 
-收集了各地受歡迎的餐廳
+輸入任意網址, 產生格式統一、不佔排版的短網址
 
 ## 功能列表
 
@@ -14,23 +14,23 @@
 
 ### 安裝
 
-1.在本地目錄 clone repo 或 [download](https://github.com/herojia2021/restaurant-list/archive/refs/heads/master.zip)
+1.在本地目錄 clone repo 或 [download](https://github.com/herojia2021/url-shortener/archive/refs/heads/master.zip)
 
 ```
-git clone https://github.com/herojia2021/restaurant-list.git
+git clone https://github.com/herojia2021/url-shortener.git
 ```
 
 2.安裝相依套件
 
 ```
-cd restaurant-list
+cd url-shortener
 ```
 
 ```
 npm install
 ```
 
-3.匯入種子資料
+3.匯入種子資料 (測試資料)
 
 ```
 npm run seed
